@@ -1,0 +1,36 @@
+{
+  "name": "mo-money-mo-problems",
+  "version": "0.1.0",
+  "description": "Budgetting, ftw",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": {
+    "transform": [
+      ["reactify"]
+    ]
+  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasimper/mo-money-mo-problems.git"
+  },
+  "author": "Jamie Simper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasimper/mo-money-mo-problems/issues"
+  },
+  "homepage": "https://github.com/jasimper/mo-money-mo-problems#readme",
+  "dependencies": {
+    "react": "^0.13.3",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "browserify-incremental": "^3.0.1",
+    "reactify": "^1.1.1"
+  }
+}
