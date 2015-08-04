@@ -1,8 +1,9 @@
 var React = require('react');
+var Photo = require('./Photo.react.js');
 
 var browser = function() {
   var div = document.querySelector('[data-js="wrapper"]');
-  React.render(React.DOM.h1(null, 'Makin it RAIN!!!'), div);
+  React.render(<Photo />, div);
 };
 
 module.exports = browser;

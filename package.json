@@ -2,7 +2,7 @@
   "name": "mo-money-mo-problems",
   "version": "0.1.0",
   "description": "Budgetting, ftw",
-  "main": "index.js",
+  "main": "",
   "directories": {
     "test": "test"
   },
@@ -30,7 +30,9 @@
   },
   "browserify": {
     "transform": [
-      ["reactify"]
-  ]
+      [
+        "reactify"
+      ]
+    ]
   }
 }
