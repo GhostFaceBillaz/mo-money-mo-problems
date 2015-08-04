@@ -2,12 +2,12 @@
   "name": "mo-money-mo-problems",
   "version": "0.1.0",
   "description": "Budgetting, ftw",
-  "main": "",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
